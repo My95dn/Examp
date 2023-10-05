@@ -591,13 +591,12 @@ a {
 
  .moudal {
     position: absolute;
-    padding: 2.99rem 6.2rem;
+    padding: 18.3% 36%;
     background-color: #71b09c;
-    left: 5%;
     opacity: 0.7;
-    top: 0%;
     display: none;
     text-align: center;
+    top: 0%;
 }
 .view {
     margin-top: 1rem;
