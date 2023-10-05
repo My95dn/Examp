@@ -82,6 +82,7 @@ const handleEvent = () => {
     value.forEach(element => {
         newElement.innerHTML += `
         <div class="contains">
+            <div class="moudal"></div>
             <div class="app-images">
                 <img src="${element.image}" alt="image" class="imagess">
             

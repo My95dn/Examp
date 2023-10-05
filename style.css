@@ -122,7 +122,7 @@ a {
 .main-sub>.content-text-sub::before {
     content: '...........................................';
     position: absolute;
-    left: 56%;
+    left: 58%;
     top: -43%;
 
 }
@@ -173,7 +173,7 @@ a {
 }
 
 .content-text-sub>.border {
-   
+   margin-left: 1.5rem;
 }
 
 .container-sub {
@@ -184,16 +184,17 @@ a {
 
 .container-sub>.content-text-sub::before {
     content: '...........................................';
-    position: absolute;
     left: 34%;
     top: -43%;
+    position: sticky;
 }
 
 .container-sub>.content-text-sub::after {
     content: '...........................................';
-    position: absolute;
     left: 53%;
     top: -43%;
+    position: sticky;
+
 }
 
 
@@ -538,6 +539,7 @@ a {
     left: 38%;
     top: -25%;
     color: #8c9398;
+    position: sticky;
 }
 .address-titlee::before {
     position: absolute;
@@ -545,6 +547,7 @@ a {
     right: 38%;
     top: -25%;
     color: #8c9398;
+    position: sticky;
 }
 .address-titlee {
     margin: 2rem;
@@ -577,6 +580,9 @@ a {
 }
 .content-address>.sub-addresss{
    text-align: center;
+}
+.contains > .moudal {
+    
 }
 
 .address-title > .h5-title {
