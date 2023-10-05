@@ -12,22 +12,22 @@ let array = [
         image: "./images/right.png",
         title: "WEB DEVELOPMENT //",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus",
-        
+
     },
     {
         image: "./images/love.png",
         title: "WE LOVE YOU //",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus",
-        
+
     },
- 
-      
-    
+
+
+
 ]
-let value =   [
+let value = [
     {
         image: "./images/Layer 12.jpg",
-        title: "CREATIVE MINDS", 
+        title: "CREATIVE MINDS",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero."
     },
     {
@@ -82,8 +82,11 @@ const handleEvent = () => {
     value.forEach(element => {
         newElement.innerHTML += `
         <div class="contains">
-            <div class="moudal"></div>
-            <div class="app-images">
+        <div class="app-images">
+        <div class="moudal">
+        <img src="./images/search.png" alt="" class="image-search">
+        <h4 class="view">VIEW MORE</h4>
+        </div>
                 <img src="${element.image}" alt="image" class="imagess">
             
             
@@ -105,6 +108,6 @@ const handleEvent = () => {
 
     })
     contentImage.appendChild(newElement)
-    
+
 }
 handleEvent()

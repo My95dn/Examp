@@ -27,12 +27,11 @@ a {
  .app-image {
     text-align: center;
 }
-.app-images {
-    
+.contains:hover .moudal {
+    display: block;
+    cursor: pointer;
 }
-.app-images:hover {
-    
-}
+
 .backgroud > .app-text {
     display: flex;
     justify-content: center;
@@ -239,6 +238,9 @@ a {
 
 .contain>.app-content {
     text-align: center;
+}
+.contains {
+    position: relative;
 }
 
 .app-content>.app-context {
@@ -581,7 +583,28 @@ a {
 .content-address>.sub-addresss{
    text-align: center;
 }
-.contains > .moudal {
+.icon1 {
+    text-align: end;
+    margin-right: 14rem;
+    cursor: pointer;
+}
+
+ .moudal {
+    position: absolute;
+    padding: 2.99rem 6.2rem;
+    background-color: #71b09c;
+    left: 5%;
+    opacity: 0.7;
+    top: 0%;
+    display: none;
+    text-align: center;
+}
+.view {
+    margin-top: 1rem;
+    color: #fff;
+    font-weight: 200;
+}
+.image-search {
     
 }
 
