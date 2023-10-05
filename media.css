@@ -1,0 +1,246 @@
+/* responsive mobile */
+@media only screen and (max-width: 48rem) {
+    .backgroud>.app-text {
+        padding: 0;
+    }
+
+    .text>.sub-text {
+        font-size: 0.8rem;
+    }
+
+    .text>.span-text {
+        font-size: 0.8rem;
+    }
+
+    .text {
+        margin: 0 0 15px 0;
+    }
+
+    .text-h3 {
+        line-height: 1.3rem;
+    }
+
+    .btn>.btn-sub {
+        font-size: 0.7rem;
+        padding: 13px 22px;
+    }
+
+    .main-text>.main-sub {
+        width: 24rem;
+        margin: 0;
+    }
+
+    .main-sub>.text-content {
+        padding: 20px;
+    }
+
+    .text-content>.text-h5 {
+        font-size: 0.85rem;
+
+    }
+
+    .text-content>.sed {
+        font-size: 0.85rem;
+    }
+
+    .span {
+        font-size: 0.85rem;
+    }
+
+    .main-sub>.content-text-sub {
+        display: none;
+    }
+
+    .container-sub>.content-text-sub {
+        display: none;
+    }
+
+    .contents {
+        flex-wrap: wrap;
+    }
+
+    .text-contents {
+        font-size: 0.75rem
+    }
+
+    .app-image {
+        margin-top: 3rem;
+    }
+
+    .container-sub {
+        padding: 5rem 0 0 0;
+    }
+
+    .content-text-sub>.content-app {
+        flex-wrap: wrap;
+    }
+
+    .content-image>.images {
+        width: 100%;
+    }
+
+    .content-image {
+        width: 100%;
+    }
+
+    .borders::after {
+        left: 2%;
+    }
+
+    .content-p>.select-text {
+        padding: 0 2rem;
+    }
+
+    .content-p>.select-text {
+        width: 100%;
+        font-size: 0.75rem;
+    }
+
+    .app-content>.sub-title::after {
+        left: 44%;
+    }
+
+    .text-contents {
+        width: 100%;
+    }
+
+    .content-box {
+        text-align: center;
+        margin: 3rem 0 3rem 0;
+    }
+
+    .-backgroud-h4 {
+        padding: 15px;
+        line-height: 2rem;
+        font-size: 1rem;
+    }
+
+    .p-backgroud {
+        font-size: 0.9rem;
+    }
+
+    .h4-sub-backgroud {
+        font-size: 0.9rem;
+
+    }
+
+    .text-content-gr {
+        font-size: 0.9rem;
+    }
+    .main-app>.backgroud-text {
+        padding-bottom: 0.5rem;
+    }
+    .contentss {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .app-content>.sub-title::after {
+        top: 193%;
+    }
+    .contact-text>.btn-content {
+        padding: 0.5rem;
+    }
+    .contact-text>.input-text {
+        padding: 0.44rem 0.82rem;
+    }
+    .content-sub-app {
+        padding-bottom: 0;
+    }
+    .contact-text {
+        padding-bottom: 3rem;
+    }
+    .content-contact > .icon-contact {
+        padding: 0.7rem 0.5rem;
+    }
+    .content-contact > .icon-contact {
+        left: 46%;
+        bottom: -8%;
+    }
+    .address-titlee {
+        display: none;
+    }
+    .content-address>.sub-address {
+        flex-wrap: wrap;
+    }
+    .sub-address>.email {
+        flex-basis: 100%;
+        margin-bottom: 1rem;
+    }
+    .sub-address>.email {
+        padding: 0.99rem 4rem;
+    }
+    .address-title {
+        margin-bottom: 3rem;
+    }
+    .content-address>.sub-addresss {
+        margin-bottom: 2rem;
+        margin-left: 0;
+    }
+    .content-address>.sub-address {
+        margin-bottom: 2rem;
+    }
+    .footer>.footer-sub {
+        padding: 1.35rem;
+    }
+    .footer-text > .span-text {
+        font-size: 0.65rem;
+    }
+    .footer-text>.footer-content {
+        font-size: 0.65rem;
+    }
+    .textt {
+        margin-bottom: 20px;
+    }
+    .main-text {
+        display: flex;
+        justify-content: center;
+    }
+}
+@media only screen and (min-width: 49rem) and (max-width: 64rem) {
+    .container-sub>.content-text-sub::before {
+        left: 18%;
+    }
+    .text-h3 {
+        line-height:  1.6rem;
+    }
+    .text-contents {
+        width: 100%;
+    }
+    .contain {
+        padding: 1rem;
+    }
+    .app-content>.sub-title::after {
+        left: 42%;
+    }
+    .contents {
+        width: 100%;
+    }
+    .content-text-sub>.content-app {
+        flex-wrap: wrap;
+    }
+    .content-box {
+        margin: 4rem 0 5rem 0;
+    }
+    .contentss {
+        width: 100%;
+    }
+    .app-content>.sub-title::after {
+        top: 175%;
+    }
+    .content-address>.sub-addressss {
+        flex-flow: column;
+    }
+    .address-title > .h5-title {
+        text-align: center;
+    }
+    .address-titlee::after {
+        left: 21%;
+    }
+    .address-titlee::before {
+        right: 22%;
+    }
+    .sub-address>.email {
+        margin-top: 3rem;
+    }
+    
+}
