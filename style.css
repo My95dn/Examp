@@ -618,7 +618,7 @@ a {
     transition: all 0.5s;
     cursor: pointer;
 }
-.sub-address > .address-icon:hover {
+.sub-addresss > .address-icon:hover {
     transform: translateY(-30%);
     background-color: #3dc9b3;
 }
